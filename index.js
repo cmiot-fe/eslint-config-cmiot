@@ -27,12 +27,13 @@ module.exports = {
 		"no-throw-literal": "off",
 		"no-underscore-dangle": "off",
 		"import/no-dynamic-require": "off",
-		"import/extensions": ["error", "always", "js", {
-			"ignorePackages": true
+		"import/extensions": ["error", "always", {
+			"js": "ignorePackages"
 		}],
 		"react/jsx-filename-extension": ["error", {
 			"extensions": [".js", ".jsx"]
-		}],
+    }],
+    "react/destructuring-assignment": "warn",
 		"react/no-multi-comp": "off",
 		"react/forbid-prop-types": "off",
 		"react/prop-types": "off",
@@ -41,6 +42,8 @@ module.exports = {
 		"jsx-a11y/label-has-for": "off",
 		"global-require": "off",
 		"class-methods-use-this": "off",
-		"max-len": ["warn", 120]
+    "max-len": ["warn", 120],
+    "lines-between-class-members": "off",
+    "object-curly-newline": "off",
 	}
 }
