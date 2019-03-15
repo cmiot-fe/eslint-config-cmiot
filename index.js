@@ -28,7 +28,8 @@ module.exports = {
 		"no-underscore-dangle": "off",
 		"import/no-dynamic-require": "off",
 		"import/extensions": ["error", "always", {
-			"js": "ignorePackages"
+      "js": "ignorePackages",
+      "jsx": "ignorePackages"
 		}],
 		"react/jsx-filename-extension": ["error", {
 			"extensions": [".js", ".jsx"]
@@ -45,5 +46,7 @@ module.exports = {
     "max-len": ["warn", 120],
     "lines-between-class-members": "off",
     "object-curly-newline": "off",
+    "filenames/match-regex": ["error", "^[a-z0-9_.-]+$", true],
+    "filenames/match-exported": ["error", "kebab"],
 	}
 }
