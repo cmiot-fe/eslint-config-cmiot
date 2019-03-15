@@ -6,7 +6,8 @@ module.exports = {
 	"parser": "babel-eslint",
 	"settings": {
 		"import/resolver": "webpack"
-	},
+  },
+  "plugins": ["filenames"],
 	"rules": {
 		"space-before-function-paren": ["error", {
 			"anonymous": "never",
