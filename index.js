@@ -49,6 +49,8 @@ module.exports = {
     'react/prop-types': 'off',
     'react/no-array-index-key': 'warn',
     'react/no-did-mount-set-state': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/state-in-constructor': 'off',
     'jsx-a11y/label-has-for': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
